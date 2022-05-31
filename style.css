@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'our friend';
+    src: url(Our\ Friend\ Electric.otf);
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+h1{
+    font-family: our friend;
+    margin: 0px;
+    font-size: 3em;
+}
+div{
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+article{
+    line-height: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    width: 300px;
+    padding: 10px;  
+}
+#flor{
+    background-image: url(close-up-de-uma-flor-roxa_181624-25863.webp);
+    
+}
+.img > article{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.297);
+}
+#livro{
+    background-image: url(dia-mundial-do-livro-amazon-traz-7-obras-de-ciencia-em-oferta-neste-sabado.jpg);
+}
+#pais{
+    background-image: url(quadro-decorativo-natureza-paisagem-mar-sol-coqueiro-ponte-quadro-belezas-naturais.jpg);
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0px;
+}
+.img{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
