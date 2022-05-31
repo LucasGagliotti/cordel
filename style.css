@@ -36,7 +36,9 @@ article{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px;
     width: 300px;
-    padding: 10px;  
+    padding: 20px;  
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 #flor{
     background-image: url(close-up-de-uma-flor-roxa_181624-25863.webp);
@@ -44,7 +46,7 @@ article{
 }
 .img > article{
     color: white;
-    background-color: rgba(0, 0, 0, 0.297);
+    background-color: rgba(0, 0, 0, 0.44);
 }
 #livro{
     background-image: url(dia-mundial-do-livro-amazon-traz-7-obras-de-ciencia-em-oferta-neste-sabado.jpg);
